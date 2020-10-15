@@ -1,0 +1,47 @@
+footer{
+    .texto{
+        float: left;
+        padding: 92px;
+        width: 25%;
+    }
+
+    .imagenes{
+        float: right;
+        width: 70%;
+
+        &__uno{
+            z-index: 1;
+            position: absolute;
+            width: 500px;
+            height: 300px;
+            margin-left: 180px;
+            margin-top: -200px;
+            
+        }
+        &__dos{
+            z-index: 2;
+            position: absolute;
+            width: 150px;
+            height: 200px;
+            margin-left: 720px;
+            margin-top: -250px;
+        }
+
+        &__tres{
+            z-index: 1;
+            position: absolute;
+            width: 534px;
+            height: 400px;
+            margin-left: 795px;
+            margin-top: -250px;
+            
+        }
+        
+        #box3{
+            background-color: $celeste;
+            width: 470px;
+            height: 250px;
+            margin-left: 325px;
+        }
+    }
+}

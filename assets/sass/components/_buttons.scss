@@ -1,0 +1,24 @@
+nav{
+    .boton{
+        margin-left: auto;
+        
+
+        &__uno{
+                float: right;
+                background-color: #ffffff;
+                border: 1px solid $gris;
+                padding: 5px;
+                color: $gris;
+                        }
+
+        &__dos{
+                float: right;
+                background-color: $verde;
+                border: 1px solid $verde;
+                padding: 5px 20px;
+                color: #ffffff;
+                margin-left: 50px;
+                margin-right: 90px;
+            }
+    }
+}

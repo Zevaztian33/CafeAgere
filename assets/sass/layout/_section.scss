@@ -1,0 +1,45 @@
+section{
+    .dato{
+        background-color: #ffffff;
+        position: absolute;
+        left: 896px;
+        top: 609px;
+        padding: 20px;
+
+        &__uno, &__dos, &__tres{
+            display: inline-block;
+            padding: 0 20px;
+            
+        }
+    }
+
+    .cajas{
+        float: right;
+
+        #box1{
+            z-index: 1;
+            position: absolute;
+            background-color: $naranjo;
+            padding: 10px;
+            width: 160px;
+            height: 160px;
+            top: 584px;
+            right: 396px;
+
+            i{
+                padding: 43px;
+            }
+            
+        }
+    
+        #box2{
+        position: absolute;
+        background-color: $amarillo;
+        width: 160px;
+        height: 160px;
+        top: 609px;
+        right: 372px;
+        }
+    }
+        
+}
